@@ -94,3 +94,5 @@ YOLOv8 이후의 향상된 성능과 효율을 제공합니다.
 >  작성자: *[당신의 이름]*  
 >  Last updated: 2025-11-05  
 >  [Ultralytics YOLO GitHub](https://github.com/ultralytics/ultralytics)
+
+<img width="780" height="367" alt="image" src="https://github.com/user-attachments/assets/74d52a63-0eef-4a48-9d69-34db5354db90" />
