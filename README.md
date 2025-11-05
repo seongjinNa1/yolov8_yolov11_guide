@@ -57,48 +57,37 @@ YOLOv8 이후의 향상된 성능과 효율을 제공합니다.
 | **Batch Size** | 한 번에 학습하는 데이터의 개수 |
 
 ---
+#  YOLOv11 모델 성능 비교표 (클릭 시 다운로드)
 
-##  설치 방법
-
-```bash
-# YOLOv11 설치 (Ultralytics 최신 버전)
-pip install ultralytics
-
-#  YOLOv11 모델 성능 비교
-
->  YOLOv11 각 모델별 성능 및 연산 효율 비교표  
-> (출처: Ultralytics YOLOv11 공식 문서)
+>  각 모델명을 클릭하면 해당 파일이 다운로드됩니다.  
+> (이미지 또는 모델 가중치 파일 등)
 
 ---
-
-##  모델별 성능 비교
 
 | 모델 | 크기 (픽셀) | mAP<sub>val</sub> 50-95 | 속도 (CPU ONNX, ms) | 속도 (T4 TensorRT10, ms) | 파라미터 (M) | FLOPs (B) |
 |:------|:-------------:|:-----------------:|:------------------:|:------------------:|:-------------:|:-----------:|
-| **YOLO11n** | 640 | 39.5 | 56.1 ± 0.8 | 1.5 ± 0.0 | 2.6 | 6.5 |
-| **YOLO11s** | 640 | 47.0 | 90.0 ± 1.2 | 2.5 ± 0.0 | 9.4 | 21.5 |
-| **YOLO11m** | 640 | 51.5 | 183.2 ± 2.0 | 4.7 ± 0.1 | 20.1 | 68.0 |
-| **YOLO11l** | 640 | 53.4 | 238.6 ± 1.4 | 6.2 ± 0.1 | 25.3 | 86.9 |
-| **YOLO11x** | 640 | 54.7 | 462.8 ± 6.7 | 11.3 ± 0.2 | 56.9 | 194.9 |
+| <a href="./YOLO11n.png" download style="color:#1e90ff; font-weight:bold;">YOLO11n</a> | 640 | 39.5 | 56.1 ± 0.8 | 1.5 ± 0.0 | 2.6 | 6.5 |
+| <a href="./YOLO11s.png" download style="color:#1e90ff; font-weight:bold;">YOLO11s</a> | 640 | 47.0 | 90.0 ± 1.2 | 2.5 ± 0.0 | 9.4 | 21.5 |
+| <a href="./YOLO11m.png" download style="color:#1e90ff; font-weight:bold;">YOLO11m</a> | 640 | 51.5 | 183.2 ± 2.0 | 4.7 ± 0.1 | 20.1 | 68.0 |
+| <a href="./YOLO11l.png" download style="color:#1e90ff; font-weight:bold;">YOLO11l</a> | 640 | 53.4 | 238.6 ± 1.4 | 6.2 ± 0.1 | 25.3 | 86.9 |
+| <a href="./YOLO11x.png" download style="color:#1e90ff; font-weight:bold;">YOLO11x</a> | 640 | 54.7 | 462.8 ± 6.7 | 11.3 ± 0.2 | 56.9 | 194.9 |
 
 ---
 
-##  표 이미지 보기
-
-아래 버튼을 눌러 표 이미지를 다운로드할 수 있습니다  
-
-[![ YOLOv11 성능표 다운로드](https://img.shields.io/badge/Download-YOLOv11_Table-blue?style=for-the-badge&logo=github)](./7dda4da3-8e74-4d58-8157-83cdd28cb5aa.png)
-
->  위 링크는 같은 폴더에 `7dda4da3-8e74-4d58-8157-83cdd28cb5aa.png` 파일이 있을 경우 작동합니다.  
-> 깃허브에 업로드 시 **같은 디렉토리**에 이미지를 두면 됩니다.
-
----
-
-##  요약
-
-- **YOLO11n** : 가장 작고 빠르며, 모바일용 또는 Edge 디바이스용으로 적합  
-- **YOLO11x** : 가장 높은 정확도를 가지며, 서버나 GPU 환경에서 최적  
-- 모델 선택은 **정확도 vs 속도 vs 자원 효율** 균형에 따라 결정  
+>  위 예시에서는 각 모델명(`YOLO11n.png`, `YOLO11s.png` 등)이  
+> **이 README와 같은 폴더**에 있어야 합니다.  
+> 클릭 시 해당 파일이 **자동 다운로드**됩니다.  
+>
+> 예:  
+> ```
+>  프로젝트 폴더/
+> ├── README.md
+> ├── YOLO11n.png
+> ├── YOLO11s.png
+> ├── YOLO11m.png
+> ├── YOLO11l.png
+> └── YOLO11x.png
+> ```
 
 ---
 
